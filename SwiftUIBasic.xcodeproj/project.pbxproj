@@ -13,6 +13,8 @@
 		0B38CCE123CC46E700148DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B38CCE023CC46E700148DBA /* Assets.xcassets */; };
 		0B38CCE423CC46E700148DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B38CCE323CC46E700148DBA /* Preview Assets.xcassets */; };
 		0B38CCE723CC46E700148DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B38CCE523CC46E700148DBA /* LaunchScreen.storyboard */; };
+		0B38CCEF23CC54E400148DBA /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B38CCEE23CC54E400148DBA /* CircleImageView.swift */; };
+		0B38CCF123CC651600148DBA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B38CCF023CC651600148DBA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0B38CCE323CC46E700148DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B38CCE623CC46E700148DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B38CCE823CC46E700148DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B38CCEE23CC54E400148DBA /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		0B38CCF023CC651600148DBA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0B38CCE523CC46E700148DBA /* LaunchScreen.storyboard */,
 				0B38CCE823CC46E700148DBA /* Info.plist */,
 				0B38CCE223CC46E700148DBA /* Preview Content */,
+				0B38CCEE23CC54E400148DBA /* CircleImageView.swift */,
+				0B38CCF023CC651600148DBA /* MapView.swift */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B38CCEF23CC54E400148DBA /* CircleImageView.swift in Sources */,
 				0B38CCDB23CC46DA00148DBA /* AppDelegate.swift in Sources */,
+				0B38CCF123CC651600148DBA /* MapView.swift in Sources */,
 				0B38CCDD23CC46DA00148DBA /* SceneDelegate.swift in Sources */,
 				0B38CCDF23CC46DA00148DBA /* ContentView.swift in Sources */,
 			);
